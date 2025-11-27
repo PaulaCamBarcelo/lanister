@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lanister - Diseño Web</title>
+  <meta name="description"
+    content="Construimos tu presencia digital con la fuerza de un reino. Desarrollo web, UX/UI, ecommerce, seguridad y hosting." />
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@700&display=swap"
+    rel="stylesheet">
+    <!-- favicons -->
+    <link rel="shortcut icon" href="public/favicon.png">
+      <meta property="og:image"
+        content="https://raw.githubusercontent.com/PaulaCamBarcelo/elecar5/main/public/favicon.png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style2.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="Inicio - Agencia">
+        <!-- SVG escudo minimalista -->
+        <img src="assets/images/Logo/logo-sin-fondo.png" alt="Logo Agencia" class="logo-img">
+        <span class="brand">LANISTER<span class="brand-accent">DISEÑO WEB</span></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+        <ul id="menu" class="menu">
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#about">Sobre nosotros</a></li>
+          <li><a href="#portfolio">Portafolio</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+  <!-- HERO -->
+<section id="home" class="hero">
+
+  <!-- Video de fondo -->
+ 
+  <div class="video-wrapper">
+      <video class="video v1" src="assets/images/video/Lanister-home.mp4" autoplay muted loop></video>
+      <video class="video v2" src="assets/images/video/video_home.mp4" autoplay muted loop></video>
+  </div>
+
+  <!-- Contenido principal -->
+  <div class="container hero-content">
+    <h1 class="hero-title">Diseño Web</h1>
+    <p class="hero-sub">Construimos tu presencia digital con la fuerza de un reino.</p>
+
+    <div class="hero-cta">
+      <a href="#contact" class="btn primary">Comencemos</a>
+      <a href="#portfolio" class="btn ghost">Ver ejemplos</a>
+    </div>
+  </div>
+
+</section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="section services">
+      <div class="container">
+        <h2 class="section-title">Servicios</h2>
+        <p class="section-lead">Estandartes de servicio — diseño minimalista con iconografía simbólica.</p>
+
+        <div class="flags-grid">
+
+          <!-- Service item -->
+          <article class="flag" tabindex="0">
+            <div class="flag-banner">
+              <div class="flag-icon" aria-hidden="true">🛠</div>
+              <h3>Desarrollo Web</h3>
+            </div>
+            <p>Aplicaciones a medida, páginas corporativas y soluciones escalables.</p>
+          </article>
+
+          <article class="flag" tabindex="0">
+            <div class="flag-banner">
+              <div class="flag-icon" aria-hidden="true">🎨</div>
+              <h3>Diseño UX/UI</h3>
+            </div>
+            <p>Experiencias limpias, usables y con estética cuidada.</p>
+          </article>
+
+          <article class="flag" tabindex="0">
+            <div class="flag-banner">
+              <div class="flag-icon" aria-hidden="true">🔒</div>
+              <h3>Seguridad Web</h3>
+            </div>
+            <p>Auditorías, hardening y respuesta ante incidentes.</p>
+          </article>
+
+          <article class="flag" tabindex="0">
+            <div class="flag-banner">
+              <div class="flag-icon" aria-hidden="true">☁️</div>
+              <h3>Hosting & Mantenimiento</h3>
+            </div>
+            <p>Infraestructura fiable y mantenimiento continuo.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+
+      <div class="container about-grid">
+        <div class="about-content">
+          <h2 class="section-title">Sobre nosotros</h2>
+          <p class="lead">Somos artesanos digitales: Aplicamos prácticas modernas de desarrollo. <br>
+            Priorizamos claridad, rendimiento y seguridad.</p>
+
+          <ul class="why-list">
+            <li><strong>Transparencia:</strong> procesos claros y entregables definidos.</li>
+            <li><strong>Calidad:</strong> código limpio y diseño pensado para negocio.</li>
+            <li><strong>Soporte:</strong> acompañamiento y garantías.</li>
+          </ul>
+
+          <a href="#contact" class="btn primary">Contrátanos</a>
+        </div>
+
+        <div class="about-art" aria-hidden="true">
+          <div class="mini-shield">
+            <img src="assets/images/Logo/logo-background.png" alt="Logo Agencia" class="abou-shield">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PORTFOLIO (simple grid) -->
+    <section id="portfolio" class="section portfolio">
+      <div class="container">
+        <h2 class="section-title">Portafolio</h2>
+        <p class="section-lead">Proyectos recientes — enfoque en producto y resultados.</p>
+
+        <div class="portfolio-grid">
+          <figure class="portfolio-item reveal">
+            <img src="assets/images/works/proyect1.jpg" alt="Proyecto 1" />
+            <figcaption>
+              <h4>Comercio Royal</h4>
+              <p>Shopify + personalizaciones a medida.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="portfolio-item reveal">
+            <img src="assets/images/works/proyect1.jpg" alt="Proyecto 2" />
+            <figcaption>
+              <h4>Elecar5</h4>
+              <p>Landing Page.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="portfolio-item reveal">
+            <img src="assets/images/works/proyect1.jpg" alt="Proyecto 3" />
+            <figcaption>
+              <h4>Plataforma Shield</h4>
+              <p>Sistema de gestión interno con panel seguro.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <h2 class="section-title">Contacto</h2>
+        <p class="section-lead">Hablemos de tu proyecto — envío rápido de propuesta.</p>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <input type="text" id="name" name="name" placeholder="Nombre" required />
+            <input type="email" id="email" name="email" placeholder="Correo" required />
+          </div>
+          <textarea id="message" name="message" placeholder="Cuéntanos tu proyecto" rows="5" required></textarea>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Enviar</button>
+            <button type="reset" class="btn ghost">Limpiar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/images/Logo/logo-sin-fondo.png" class="img-footer" srcset="">
+        <div>
+          <strong>LANISTERWEB</strong>
+          <div class="muted">© <span id="year"></span> Todos los derechos reservados</div>
+        </div>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="#services">Servicios</a>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+
+      <div class="socials">
+        <a href="#" aria-label="Twitter">🐦</a>
+        <a href="#" aria-label="LinkedIn">💼</a>
+        <a href="#" aria-label="Instagram">📸</a>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
+
+<script>
+
+  // Small interactive behaviors: menu toggle, reveal on scroll, simple form handling
+
+  document.addEventListener('DOMContentLoaded', function () {
+    // Year in footer
+    const year = document.getElementById('year');
+    if (year) year.textContent = new Date().getFullYear();
+
+    // Nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const menu = document.getElementById('menu');
+    navToggle && navToggle.addEventListener('click', function () {
+      const expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', String(!expanded));
+      menu.classList.toggle('show');
+    });
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          // close menu on mobile
+          if (menu.classList.contains('show')) menu.classList.remove('show');
+        }
+      });
+    });
+
+    // Reveal on scroll
+    const reveals = document.querySelectorAll('.reveal, .flag, .portfolio-item');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.12 });
+    reveals.forEach(el => io.observe(el));
+
+    // Simple form handler (placeholder behavior)
+    const form = document.getElementById('contactForm');
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const name = form.querySelector('#name').value.trim();
+        const email = form.querySelector('#email').value.trim();
+        const message = form.querySelector('#message').value.trim();
+        if (!name || !email || !message) {
+          alert('Por favor completa todos los campos.');
+          return;
+        }
+        // Simular envío
+        const btn = form.querySelector('button[type=submit]');
+        btn.disabled = true; btn.textContent = 'Enviando...';
+        setTimeout(() => {
+          btn.disabled = false; btn.textContent = 'Enviar';
+          alert('Gracias — tu mensaje fue recibido. Nos contactaremos pronto.');
+          form.reset();
+        }, 900);
+      });
+    }
+  });
+</script>
